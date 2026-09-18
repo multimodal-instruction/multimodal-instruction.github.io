@@ -1,0 +1,6 @@
+.DS_Store
+# Preserve original footage locally; publish compressed web copies only.
+static/assets/videos/T*_experiment.mp4
+static/assets/videos/overview.mp4
+static/assets/videos/placeholder.mp4
+static/assets/images/video-placeholder.jpg
