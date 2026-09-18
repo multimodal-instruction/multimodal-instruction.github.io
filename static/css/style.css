@@ -556,3 +556,8 @@ footer {
 .affiliation-list { display: flex; justify-content: center; flex-wrap: wrap; column-gap: 2rem; row-gap: .25rem; }
 
 #abstract .publication-video { margin-bottom: 24px; }
+
+#evaluation.section { padding-top: 24px; padding-bottom: 32px; }
+.evaluation-figure { margin-bottom: 20px; }
+.evaluation-figure a { display: block; }
+.evaluation-description { color: var(--color-text-secondary); }

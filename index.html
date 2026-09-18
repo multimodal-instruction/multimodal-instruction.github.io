@@ -52,6 +52,18 @@
         <p class="overview-description">MIGU models pointing uncertainty in 3D and uses a vision-language model to estimate semantic priors over candidate objects and regions. Bayes-inspired fusion combines these cues into a shared belief. A behavior planner weighs direct execution against an attribute-based clarification question, and the grounded target becomes a goal for mobile manipulation or tabletop task-and-motion planning.</p>
       </div>
     </section>
+    <section class="section" id="evaluation">
+      <div class="container narrow">
+        <h2>Real-World Evaluation</h2>
+        <figure class="full-width-figure evaluation-figure">
+          <a href="static/assets/images/grounding-evaluation.png" target="_blank" rel="noopener" aria-label="View the evaluation chart at full size">
+            <img src="static/assets/images/grounding-evaluation.png" width="1325" height="313" loading="lazy" alt="Figure 7 compares MIGU with seven baselines across grounding accuracy, top-2 accuracy, scaled 2D deviation, negative log-likelihood, and Brier score. MIGU, shown in green, has the highest accuracy and top-2 accuracy, and the lowest deviation, NLL, and Brier score among the reported methods.">
+          </a>
+          <figcaption><strong>Grounding performance against baselines (Fig. 7).</strong> MIGU is shown in green. Higher is better for accuracy and top-2 accuracy; lower is better for deviation, negative log-likelihood (NLL), and Brier score. NLL is omitted for deterministic methods. Click the chart to enlarge.</figcaption>
+        </figure>
+        <p class="evaluation-description">Across 100 real-world instruction-grounding scenarios, MIGU combines language and pointing to outperform the evaluated baselines in grounding accuracy and spatial precision. The lower NLL and Brier scores also indicate better probabilistic predictions, providing a stronger basis for deciding when to act and when to ask for clarification.</p>
+      </div>
+    </section>
     <section class="section" id="tasks">
       <div class="container narrow">
         <h2>Tasks</h2>
