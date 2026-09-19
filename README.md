@@ -18,7 +18,7 @@ stretched vertically relative to the original 16:9 footage, without cropping.
 Encoding: H.264, CRF 23, slow preset, yuv420p, AAC 96 kb/s, fast-start MP4.
 Task posters are extracted from the processed videos at one second.
 
-The overview video is currently commented out in `index.html`. It uses `static/assets/videos/optimized/overview.mp4`, processed
+The overview video is displayed above the key message in `index.html`. It uses `static/assets/videos/optimized/overview.mp4`, processed
 with the same 16:10 dimensions and compression settings. The original
 `static/assets/videos/overview.mp4` is preserved.
 The Paper button opens `static/assets/papers/MIGU.pdf`.
