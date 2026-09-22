@@ -537,6 +537,7 @@ footer {
 .video-item:target .video-task-title { color: var(--color-accent); }
 .video-task-title { font-size: 1rem; }
 .project-video { display: block; aspect-ratio: 16 / 10; }
+.publication-video .project-video { aspect-ratio: auto; height: auto; }
 :focus-visible { outline: 3px solid var(--color-accent); outline-offset: 4px; }
 .skip-link { position: absolute; left: 16px; top: -80px; background: white; padding: 8px 16px; z-index: 2; }
 .skip-link:focus { top: 12px; }
